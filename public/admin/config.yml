@@ -1,0 +1,15 @@
+media_folder: public/media
+public_folder: /media
+
+collections:
+  - label: "Seasons"
+    name: "seasons"
+    folder: "seasons"
+    create: true
+    fields:
+    - {lable: "Title", name: "title", widget: "string"}
+    - {lable: "Slug", name: "slug", widget: "string"}
+
+backend:
+  name: github
+  repo: aitorcas23/zmb-astro

@@ -4,7 +4,7 @@ public_folder: /media
 collections:
   - label: "Seasons"
     name: "seasons"
-    folder: "seasons"
+    folder: "/src/content/seasons"
     create: true
     fields:
     - {lable: "Title", name: "title", widget: "string"}
@@ -12,4 +12,7 @@ collections:
 
 backend:
   name: github
-  repo: aitorcas23/zmb-astro
+  repo: aitorcas23/sveltia-test
+  auth_endpoint: oauth
+  site_domain: localhost:3000
+  base_url: http://localhost:3000

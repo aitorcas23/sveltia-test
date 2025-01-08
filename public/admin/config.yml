@@ -13,6 +13,5 @@ collections:
 backend:
   name: github
   repo: aitorcas23/sveltia-test
-  site_domain: www.aitorcas.pp.ua
-  base_url: https://www.aitorcas.pp.ua
+  base_url: https://auth.aitorcas.pp.ua
   auth_endpoint: oauth
